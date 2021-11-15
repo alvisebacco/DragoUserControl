@@ -1,0 +1,72 @@
+root:x:0:0:root:/root:/bin/bash
+daemon:x:1:1:daemon:/usr/sbin:/usr/sbin/nologin
+bin:x:2:2:bin:/bin:/usr/sbin/nologin
+sys:x:3:3:sys:/dev:/usr/sbin/nologin
+sync:x:4:65534:sync:/bin:/bin/sync
+games:x:5:60:games:/usr/games:/usr/sbin/nologin
+man:x:6:12:man:/var/cache/man:/usr/sbin/nologin
+lp:x:7:7:lp:/var/spool/lpd:/usr/sbin/nologin
+mail:x:8:8:mail:/var/mail:/usr/sbin/nologin
+news:x:9:9:news:/var/spool/news:/usr/sbin/nologin
+uucp:x:10:10:uucp:/var/spool/uucp:/usr/sbin/nologin
+proxy:x:13:13:proxy:/bin:/usr/sbin/nologin
+www-data:x:33:33:www-data:/var/www:/usr/sbin/nologin
+backup:x:34:34:backup:/var/backups:/usr/sbin/nologin
+list:x:38:38:Mailing List Manager:/var/list:/usr/sbin/nologin
+irc:x:39:39:ircd:/var/run/ircd:/usr/sbin/nologin
+gnats:x:41:41:Gnats Bug-Reporting System (admin):/var/lib/gnats:/usr/sbin/nologin
+nobody:x:65534:65534:nobody:/nonexistent:/usr/sbin/nologin
+systemd-network:x:100:102:systemd Network Management,,,:/run/systemd/netif:/usr/sbin/nologin
+systemd-resolve:x:101:103:systemd Resolver,,,:/run/systemd/resolve:/usr/sbin/nologin
+syslog:x:102:106::/home/syslog:/usr/sbin/nologin
+messagebus:x:103:107::/nonexistent:/usr/sbin/nologin
+_apt:x:104:65534::/nonexistent:/usr/sbin/nologin
+lxd:x:105:65534::/var/lib/lxd/:/bin/false
+uuidd:x:106:110::/run/uuidd:/usr/sbin/nologin
+dnsmasq:x:107:65534:dnsmasq,,,:/var/lib/misc:/usr/sbin/nologin
+landscape:x:108:112::/var/lib/landscape:/usr/sbin/nologin
+sshd:x:109:65534::/run/sshd:/usr/sbin/nologin
+pollinate:x:110:1::/var/cache/pollinate:/bin/false
+ubuntu:x:1000:1000:Ubuntu:/home/ubuntu:/bin/bash
+filippo:x:1001:1001::/home/filippo:/bin/bash
+davide:x:1003:1003:Davide Quaglia,,,:/home/davide:/bin/bash
+nicola:x:1004:1004:Nicola,,,:/home/nicola:/bin/bash
+nes_student_1:x:1101:10000:nes student account:/home/nes_student_1:/bin/bash
+nes_student_2:x:1102:10000:nes student account:/home/nes_student_2:/bin/bash
+nes_student_3:x:1103:10000:nes student account:/home/nes_student_3:/bin/bash
+nes_student_4:x:1104:10000:nes student account:/home/nes_student_4:/bin/bash
+nes_student_5:x:1105:10000:nes student account:/home/nes_student_5:/bin/bash
+nes_student_6:x:1106:10000:nes student account:/home/nes_student_6:/bin/bash
+nes_student_7:x:1107:10000:nes student account:/home/nes_student_7:/bin/bash
+nes_student_8:x:1108:10000:nes student account:/home/nes_student_8:/bin/bash
+nes_student_9:x:1109:10000:nes student account:/home/nes_student_9:/bin/bash
+nes_student_10:x:1110:10000:nes student account:/home/nes_student_10:/bin/bash
+nes_student_11:x:1111:10000:nes student account:/home/nes_student_11:/bin/bash
+nes_student_12:x:1112:10000:nes student account:/home/nes_student_12:/bin/bash
+nes_student_13:x:1113:10000:nes student account:/home/nes_student_13:/bin/bash
+nes_student_14:x:1114:10000:nes student account:/home/nes_student_14:/bin/bash
+nes_student_15:x:1115:10000:nes student account:/home/nes_student_15:/bin/bash
+nes_student_16:x:1116:10000:nes student account:/home/nes_student_16:/bin/bash
+nes_student_17:x:1117:10000:nes student account:/home/nes_student_17:/bin/bash
+nes_student_18:x:1118:10000:nes student account:/home/nes_student_18:/bin/bash
+nes_student_19:x:1119:10000:nes student account:/home/nes_student_19:/bin/bash
+nes_student_20:x:1120:10000:nes student account:/home/nes_student_20:/bin/bash
+nes_student_21:x:1121:10000:nes student account:/home/nes_student_21:/bin/bash
+nes_student_22:x:1122:10000:nes student account:/home/nes_student_22:/bin/bash
+nes_student_23:x:1123:10000:nes student account:/home/nes_student_23:/bin/bash
+nes_student_24:x:1124:10000:nes student account:/home/nes_student_24:/bin/bash
+nes_student_25:x:1125:10000:nes student account:/home/nes_student_25:/bin/bash
+nes_student_26:x:1126:10000:nes student account:/home/nes_student_26:/bin/bash
+nes_student_27:x:1127:10000:nes student account:/home/nes_student_27:/bin/bash
+nes_student_28:x:1128:10000:nes student account:/home/nes_student_28:/bin/bash
+fraccaroli:x:1002:1005:Enrico Fraccaroli,,,:/home/fraccaroli:/bin/bash
+anisia:x:1005:10000:Anisia Dalla Valentina,,,:/home/anisia:/bin/bash
+celeste:x:1006:10000:Celeste Veronese,,,:/home/celeste:/bin/bash
+elia:x:1007:10000:Elia Brentarolli,,,:/home/elia:/bin/bash
+francesco:x:1008:10000:Francesco Picchirallo,,,:/home/francesco:/bin/bash
+alessandro:x:1009:10000:Alessandro Lucchese,,,:/home/alessandro:/bin/bash
+andrea:x:1010:10000:Andrea Cracco,,,:/home/andrea:/bin/bash
+marco:x:1011:10000:Marco Piccinelli,,,:/home/marco:/bin/bash
+elsire34:x:1012:10000:,,,:/home/elsire34:/bin/bash
+roott:ciao:999:1001::/home/roott:/bin/sh
+elsire49:sJIuyYcpOu:2059:10000::/home/elsire49:/bin/sh
